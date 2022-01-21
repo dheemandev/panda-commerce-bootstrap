@@ -10,7 +10,7 @@
 </head>
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" >
       <div class="container">
         <a class="navbar-brand" href="#"> <img src="images/logo.png" alt=""></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,11 +21,12 @@
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
-              <a class="nav-link active" aria-current="page" href="#">Products</a>
+              <a class="nav-link"
+              href="#Shoes">Shoes</a>
             </li>
-              <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
+              <a class="nav-link" href="#Bags">Bags</a>
             </li>
-              <a class="nav-link active" aria-current="page" href="#">About Us</a>
+              <a class="nav-link active" aria-current="page" href="#Contact Us">Contact Us</a>
             </li>
             
           </ul>
@@ -131,7 +132,7 @@
             </div>
          </div>
         </section>
-        <section class="container">
+        <section  id="Shoes" class="container " >
           <!-- shoe section -->
           <h2>Shoes</h2>
           <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -179,7 +180,7 @@
             </div>
           </div>
         </section>
-        <section class="container my-5">
+        <section id="Bags" class="container my-5">
           <!-- bags section -->
 
           <h2 >Backpack</h2>
@@ -227,13 +228,13 @@
               </div>
             </div>
           </div>
-        </section>
-        <section style="height: 300px;" class="container d-flex justify-content-center bg-info align-items-center rounded-3">
+        </section >
+        <section id="Contact Us" style="height: 300px;" class="container d-flex justify-content-center bg-info align-items-center rounded-3">
           <div>
             <h1>LET'S STAY IN TOUCH</h1>
           <p>Get updates on sales, specials and more</p>
           <input type="text " placeholder="your email here">
-          <br>
+          <br> <br>
           <button class="btn btn-warning">
             Subscribe Now
           </button>
